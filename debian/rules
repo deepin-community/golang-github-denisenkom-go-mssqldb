@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export DH_GOLANG_EXCLUDES := examples
+export DH_GOLANG_INSTALL_EXTRA := examples
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+
+# Tests fail on non-amd64 architectures
+override_dh_auto_test:

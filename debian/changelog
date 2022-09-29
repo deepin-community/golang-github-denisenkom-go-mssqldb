@@ -1,0 +1,70 @@
+golang-github-denisenkom-go-mssqldb (0.0~git20170717.0.8fccfc8-6) unstable; urgency=medium
+
+  * QA upload.
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Jelmer Vernooĳ ]
+  * Fix Debian QA group name.
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Update standards version, no changes needed.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Name.
+  * Bump debhelper from old 10 to 12.
+  * Set upstream metadata fields: Repository.
+  * Remove obsolete fields Name from debian/upstream/metadata.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 02 Feb 2021 14:17:06 +0000
+
+golang-github-denisenkom-go-mssqldb (0.0~git20170717.0.8fccfc8-5) unstable; urgency=medium
+
+  * Remove Michael Lustfield from Uploaders list.
+
+ -- Michael Lustfield <michael@lustfield.net>  Sat, 03 Feb 2018 12:13:27 -0600
+
+golang-github-denisenkom-go-mssqldb (0.0~git20170717.0.8fccfc8-4) unstable; urgency=medium
+
+  * Oprhaning package.
+
+ -- Michael Lustfield <michael@lustfield.net>  Fri, 02 Feb 2018 23:15:58 -0600
+
+golang-github-denisenkom-go-mssqldb (0.0~git20170717.0.8fccfc8-3) unstable; urgency=medium
+
+  * Remove invalid d/watch file.
+
+ -- Michael Lustfield <michael@lustfield.net>  Mon, 02 Oct 2017 00:33:31 -0500
+
+golang-github-denisenkom-go-mssqldb (0.0~git20170717.0.8fccfc8-2) unstable; urgency=medium
+
+  * Drop arch-specific tests.
+  * Maintenance updates:
+    - Standards-Version to 4.1.0.
+    - Add Testsuite.
+    - Lintian override for signature check.
+    - Add d/examples.
+    - Correct d/watch.
+
+ -- Michael Lustfield <michael@lustfield.net>  Tue, 26 Sep 2017 00:52:02 -0500
+
+golang-github-denisenkom-go-mssqldb (0.0~git20170717.0.8fccfc8-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Lustfield <michael@lustfield.net>  Mon, 17 Jul 2017 17:31:18 -0500
+
+golang-github-denisenkom-go-mssqldb (0.0~git20170117.0.9e40d9d-2) unstable; urgency=medium
+
+  * Removed extra-long lines in package description.
+
+ -- Michael Lustfield <michael@lustfield.net>  Sun, 12 Mar 2017 23:54:23 -0500
+
+golang-github-denisenkom-go-mssqldb (0.0~git20170117.0.9e40d9d-1) unstable; urgency=medium
+
+  * Initial release (Closes: #855981)
+
+ -- Michael Lustfield <michael@lustfield.net>  Thu, 23 Feb 2017 23:42:22 -0600
